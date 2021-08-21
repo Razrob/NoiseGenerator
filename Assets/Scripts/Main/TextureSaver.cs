@@ -43,7 +43,7 @@ public class TextureSaver : MonoBehaviour
         
 
         Texture2D _texture = new Texture2D(_textureSize.x, _textureSize.y);
-
+        
         _texture.filterMode = _filterMode;
 
         if (_textureType == TextureType.Color)
